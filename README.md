@@ -1,2 +1,12 @@
 # Proyecto-Final-Paralela
-Este es el proyecto final de programación paralela, Grupo Keury.
+>[!NOTE]
+> Este es el proyecto final de programación paralela, Grupo Keury.
+
+---
+
+📚 Estructura mínima del repositorio:
+- /docs: Documentación del proyecto ✅
+- /src: Código fuente ✅
+- /tests: Pruebas ✅
+- /metrics: Resultados de comparativas realizadas ✅
+
