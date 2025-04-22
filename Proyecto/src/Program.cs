@@ -39,7 +39,7 @@ try
 
     // Se crean x cantidad de agentes simulados (pueden ser bots de trading, por ejemplo)
     var agentes = new List<Agente>();
-    for (int i = 1; i <= 200; i++) 
+    for (int i = 1; i <= 20; i++) 
     {
         agentes.Add(new Agente($"Agente{i}", mercado, cliente));
     }
