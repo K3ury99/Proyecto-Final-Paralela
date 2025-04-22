@@ -9,11 +9,24 @@
   <img src="" width="49%"></img> 
 </div>
 
-# 📚 Estructura del repositorio:
-- /docs: Project documentation ✅
-- /src: Source ✅ code
-- /tests: Tests ✅
-- /metrics: Results of comparisons made ✅
+# 📚 Repository structure:
+- **/docs:** Project documentation ✅
+- **/src:** Source code ✅
+- **/tests:** Tests ✅
+- **/metrics:** Results of comparisons made ✅
+
+# 🔐 Technologies Used
+
+- **Language:** C# with .NET, leveraging async/await, Parallel.ForEachAsync, and CancellationToken.
+- **TPL (Task Parallel Library):** for parallel execution and concurrency control.
+- **ConcurrentDictionary:** Used in the Market class for secure access from multiple threads.
+- **Newtonsoft.Json:** metrics.json generation with readable results.
+- **ScottPlot:** Creating bar charts to compare times, speed, and efficiency.
+- **YahooFinanceApi:** Stock price query from the cloud.
+- **GitHub:** Collaborative version control and code reviews.
+- **Excel:** Creating schedules, tracking metrics, and managing tasks.
+- **PDF:** distribution of technical and user documentation in standardized format.
+- **Microsoft Teams:** Real-time communication, daily meetings, and team coordination.
 
 # 🐱‍👤 Contributing
 1. **Fork the repo**
@@ -39,5 +52,5 @@
 # 🌠 Final Notes
 Thank you for visiting this project!🌌
 
-## 📔 License
+# 📔 License
 This project is licensed under the MIT License. See the LICENSE file for details.
