@@ -28,6 +28,22 @@
 - **PDF:** distribution of technical and user documentation in standardized format.
 - **Microsoft Teams:** Real-time communication, daily meetings, and team coordination.
 
+# 🌋 Installation and configuration
+Clone the repository from a Git console or your app
+```bash
+git clone https://github.com/K3ury99/Proyecto-Final-Paralela.git
+```
+Navigate to the cloned folder
+```bash
+cd Final-Parallel Project/Project
+```
+Once there we go to SRC
+```bash
+cd src
+```
+and we execute the solution, which in this case is called: **PRYFINAL.sln**
+This runs the program and ends up displaying the metrics!
+
 # 🐱‍👤 Contributing
 1. **Fork the repo**
 - **Create a new branch**
