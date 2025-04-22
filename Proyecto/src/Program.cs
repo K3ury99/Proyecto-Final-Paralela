@@ -39,7 +39,7 @@ try
 
     // Se crean 10 agentes simulados (pueden ser bots de trading, por ejemplo)
     var agentes = new List<Agente>();
-    for (int i = 1; i <= 10; i++) // Solo 10 agentes para facilitar la prueba y visualización
+    for (int i = 1; i <= 50; i++) // Solo 10 agentes para facilitar la prueba y visualización
     {
         agentes.Add(new Agente($"Agente{i}", mercado, cliente));
     }
@@ -71,6 +71,4 @@ finally
 {
     // Al finalizar (éxito o fallo), se cancela cualquier operación pendiente relacionada al token
     cts.Cancel();
-}
-
 }
