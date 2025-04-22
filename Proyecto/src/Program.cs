@@ -37,9 +37,9 @@ try
     var cliente = new SimulatedBrokerClient();
     cliente.Connect();
 
-    // Se crean 10 agentes simulados (pueden ser bots de trading, por ejemplo)
+    // Se crean x cantidad de agentes simulados (pueden ser bots de trading, por ejemplo)
     var agentes = new List<Agente>();
-    for (int i = 1; i <= 50; i++) // Solo 10 agentes para facilitar la prueba y visualización
+    for (int i = 1; i <= 200; i++) 
     {
         agentes.Add(new Agente($"Agente{i}", mercado, cliente));
     }

@@ -62,7 +62,7 @@ public class Simulador
         Console.WriteLine($"Tiempo paralelo: {tiempoParalela} ms");
         Console.WriteLine($"Speedup: {speedup:F2}x"); // Redondeado a 2 decimales
         Console.WriteLine($"Eficiencia: {eficiencia:P2}"); // En formato porcentaje
-        Console.WriteLine($"Operaciones totales: {agentes.Count}"); // Asumiendo 100 operaciones por agente
+        Console.WriteLine($"Operaciones totales: {agentes.Count * Agente.Iteraciones}"); // para obtener la cantidad correcta de iteraciones por agente
 
         // Mostrar información del sistema
         Console.WriteLine("\nINFORMACIÓN DEL SISTEMA:");
